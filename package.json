@@ -1,0 +1,19 @@
+{
+  "name": "formatar-ofx",
+  "version": "1.0.0",
+  "description": "Formata arquivo ofx para retirar caracteres indesejáveis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiagoben/formatar-ofx.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tiagoben/formatar-ofx/issues"
+  },
+  "homepage": "https://github.com/tiagoben/formatar-ofx#readme"
+}
