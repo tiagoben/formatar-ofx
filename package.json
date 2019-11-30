@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "Formata arquivo ofx para retirar caracteres indesejáveis",
   "main": "index.js",
+  "bin": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pkg . --targets win",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/tiagoben/formatar-ofx/issues"
   },
-  "homepage": "https://github.com/tiagoben/formatar-ofx#readme"
+  "homepage": "https://github.com/tiagoben/formatar-ofx#readme",
+  "dependencies": {
+    "replace-in-file": "^4.2.0"
+  },
+  "devDependencies": {
+    "pkg": "^4.4.0"
+  }
 }
