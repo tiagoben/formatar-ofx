@@ -6,7 +6,7 @@ console.log();
 
 const options = {
   files: "./*.ofx",
-  from: /Cursos Online/g,
+  from: / - Data balanc\.: ..\/..\/..../g,
   to: "",
   encoding: "latin1"
 };
