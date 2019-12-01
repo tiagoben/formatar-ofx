@@ -1,1 +1,0 @@
-const types = [{ identifier: "", type: "" }];
