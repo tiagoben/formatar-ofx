@@ -12,16 +12,4 @@ async function run() {
   await waitKeyPress();
 }
 
-/*var fs = require("fs");
-const ofxString = fs.readFileSync("visa-2019-11.ofx", "latin1");
-
-const ofx = require("./ofx");
-
-ofx
-  .toJS(ofxString)
-  .then(ofxData => {
-    console.log(ofxData);
-    return ofx.toOFX(ofxData);
-  })
-  .then(console.log);*/
 run();
