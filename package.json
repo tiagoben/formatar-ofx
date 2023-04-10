@@ -23,7 +23,7 @@
     "big.js": "^5.2.2",
     "ofx-js": "^0.1.1",
     "replace-in-file": "^4.2.0",
-    "xml2js": "^0.4.22"
+    "xml2js": "^0.5.0"
   },
   "devDependencies": {
     "pkg": "^4.4.0"
